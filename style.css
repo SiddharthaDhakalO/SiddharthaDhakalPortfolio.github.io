@@ -1,0 +1,431 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-brand{
+    height: 50px;
+    width: 50px;
+}
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+.nav-bar{
+    background-color: #0D2248;
+ 
+}
+.navbar{
+    color: white;
+}
+
+.top {
+    margin-bottom: 50px;
+}
+.top{
+ background-image: url("assets/images/6691166_18081.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-content {
+    padding: 5px;
+
+}
+.top-common{
+    text-align: center;
+    padding: 10px;
+}
+.leftt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.right {
+    padding: 5px;
+
+}
+.right img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.resume-content{
+    background: url(assets/images/4K\ Car\ Wallpapers\ for\ Desktop\,\ iPad\ &\ iPhone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+display: flex;
+flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ 
+
+}
+
+.edit-content{
+    background: url(assets/images/4K\ Car\ Wallpapers\ for\ Desktop\,\ iPad\ &\ iPhone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+display: flex;
+flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ 
+
+}
+
+
+.about {
+    margin: 50px 0;
+}
+.about-h3{
+    padding: 5px;
+}
+.lists{
+    padding: 5px;
+}
+.lists ul{
+    list-style: none;
+}
+.lists li{
+    padding: 5px;
+}
+
+
+.left-img{
+    padding: 35px 10px;
+    height: 100%;
+    width: 100%;  
+
+    
+}
+.left-img img {
+    object-fit: cover;
+    width: 100%; 
+    height: 100%;
+    border: 1px solid black;
+    padding: 10px;
+
+    box-shadow: 10px 8px 8px 10px rgba(76, 26, 192, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.19);
+    
+}
+
+
+.skill {
+    margin: 50px 0;
+}
+.skill ul{
+    padding: 0;
+    list-style: none;
+}
+
+.contact {
+    margin: 50px 0;
+}
+
+.mission-col h3, .vision-col h3{
+    padding: 5px;
+}
+
+.mission-col p, .vision-col p{
+    text-align: justify;
+}
+.vision-logo, .mission-logo{
+    background-color: #8282F8;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+
+    
+
+}
+.mission-logo a{
+    
+}
+.mission-logo i, .vision-logo i{
+    font-size: 40px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.line {
+    width: 100%;
+    height: 6px;
+    background-color: red;
+
+}
+.b-line{
+margin-left: 45%;
+
+    width: 10%;
+    height: 6px;
+    background-color: blue;
+}
+
+.resumeD {
+    margin: 50px 0;
+}
+
+.resume-t{
+    color: yellow;
+}
+.social-section{
+padding-top: 10px;
+}
+.form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.social-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #CAD8FF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.social-contact-i{
+    background-color: #8282F8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.social-contact-i i{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.social-connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.social-i{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.social-profiles{
+    background-color: #CAD8FF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.social{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8282F8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.social i{
+font-size: 50px;
+}
+.social-i{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #8282F8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-i i{
+    font-size: 40px;
+}
+
+.form{
+    background-color:#CAD8FF ;
+}
+
+
+.footer-content{
+    background-color:  #7A1415;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* resume */
+
+.resume-body{
+    padding: 35px;
+    width: 90%;
+    margin:10px 65px;
+    box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid rgb(132 144 255 / 20%);;
+    padding: 10px;
+    line-height: 20px;
+    box-shadow:  0px 0px 20px 0px rgb(132 144 255 / 20%);; 
+ 
+}
+
+.work h1 {
+    font-size: 50px;
+    font-weight: 1000;
+    color: rgb(209, 11, 11);
+    letter-spacing: 0.15rem;
+}
+
+
+.right {
+    text-align: right;
+}
+
+.introduction {
+    margin: 30px;
+}
+.second{
+    padding: 5px;
+}
+
+img {
+    height: 15rem;
+    width: 15rem;
+
+}
+.grid-2-column {
+    display: flex;
+    gap: 30px;
+}
+
+.first {
+    width: 40%;
+}
+
+.two-of-them {
+    display: flex
+}
+
+.two-of-them-1 {
+    width: 60%;
+}
+
+.two-of-them-1 h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.two-of-them-2 {
+    width: 40%;
+    text-align: right;
+}
+
+.portfolio {
+    display: flex;
+}
+.left-side-top{
+    padding: 10px;
+    width: 170%;
+    line-height: 40px;
+}
+.left-side {
+    padding: 10px;
+    width: 170%;
+}
+
+.skill ul {
+    list-style: none;
+}
+.skill a{
+    text-decoration: none;
+    color: black;
+}
+.skill li{
+    padding: 5px;
+}
+.h2 {
+    border-left: 6px solid red;
+    padding: 8px;
+    margin-bottom: 8px;
+    letter-spacing: 0.15rem;
+}
+
+.right-side-top{
+    border-left: 2px solid gray;
+    padding: 10px;
+    width: 30%;
+
+    line-height: 80px;
+
+}
+.right-side {
+    border-left: 2px solid gray;
+    padding: 10px;
+    width: 25%;
+
+}
+
+.skill, .education, .awards, .language, .intrest {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.work {
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    margin: 20px;
+}
+.footer2{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+#hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    
+}
+
+
+
+/* end */

@@ -24,7 +24,7 @@ body {
     margin-bottom: 50px;
 }
 .top{
- background-image: url("assets/images/6691166_18081.jpg");
+ /* background-image: url("assets/images/6691166_18081.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,7 +56,7 @@ body {
 
 
 .resume-content{
-    background: url(assets/images/4K\ Car\ Wallpapers\ for\ Desktop\,\ iPad\ &\ iPhone.jpg);
+    background: url(assets/images/8036049_18857.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,8 +70,10 @@ flex-direction: column;
 
 }
 
-.edit-content{
-    background: url(assets/images/4K\ Car\ Wallpapers\ for\ Desktop\,\ iPad\ &\ iPhone.jpg);
+.edit-content{  
+    background: url(assets/images/8036049_18857.jpg);
+
+color: yellow;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,11 +144,12 @@ flex-direction: column;
     text-align: justify;
 }
 .vision-logo, .mission-logo{
-    background-color: #8282F8;
+    background-color: ;
     border-radius: 50%;
     width: 70px;
     height: 70px;
 
+    box-shadow: 10px 8px 8px 10px rgba(76, 26, 192, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.19);
     
 
 }
@@ -187,9 +190,9 @@ margin-left: 45%;
 .resume-t{
     color: yellow;
 }
-.social-section{
+/* .social-section{
 padding-top: 10px;
-}
+} */
 .form{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -204,7 +207,7 @@ padding-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .social-contact-i{
-    background-color: #8282F8;
+    background-color:;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -234,6 +237,11 @@ padding-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
+.pp{
+    text-align: center;
+    padding: 15px;
+}
+
 .social{
     width: 100px;
     height: 100px;
@@ -268,7 +276,7 @@ font-size: 50px;
 
 
 .footer-content{
-    background-color:  #7A1415;
+    background-color:  #0D2248;
     color: white;
     text-align: center;
     padding: 10px;
@@ -429,3 +437,67 @@ img {
 
 
 /* end */
+
+/* scroll to the toop */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+     /* Black background color */
+    color: yellow; /* White text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(94, 167, 110); /* Add a darker grey on hover */
+  }
+  
+/* end */
+
+
+
+.technical-s{
+    border-left: 1px solid black;
+}
+/* .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+.service-in{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.service-i{
+    padding: 5px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(199, 45, 45, 0.35) 0px 5px 15px;
+}
+.service-i i{
+  font-size: 40px;
+  color:firebrick;
+}

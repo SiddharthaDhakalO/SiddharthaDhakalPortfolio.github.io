@@ -148,13 +148,8 @@ flex-direction: column;
     border-radius: 50%;
     width: 70px;
     height: 70px;
-
-    box-shadow: 10px 8px 8px 10px rgba(76, 26, 192, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.19);
-    
-
-}
-.mission-logo a{
-    
+    /* box-shadow: 10px 8px 8px 10px rgba(76, 26, 192, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.19); */
+    box-shadow: rgba(199, 45, 45, 0.35) 0px 5px 15px;
 }
 .mission-logo i, .vision-logo i{
     font-size: 40px;
@@ -190,9 +185,9 @@ margin-left: 45%;
 .resume-t{
     color: yellow;
 }
-/* .social-section{
-padding-top: 10px;
-} */
+
+
+/* contact */
 .form{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -202,7 +197,6 @@ padding-top: 10px;
     align-items: center;
     justify-content: center;
     text-align: center;
-
     background-color: #CAD8FF;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -211,8 +205,8 @@ padding-top: 10px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    box-shadow: rgba(199, 45, 45, 0.35) 0px 5px 15px;
 
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .social-contact-i i{
     height: 100%;
@@ -222,65 +216,60 @@ padding-top: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    color:firebrick ;
 }
 .social-connect{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .social-i{
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(199, 45, 45, 0.35) 0px 5px 15px;
 }
 .social-profiles{
     background-color: #CAD8FF;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
 }
 .pp{
     text-align: center;
     padding: 15px;
 }
-
 .social{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #8282F8;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    box-shadow: rgba(199, 45, 45, 0.35) 0px 5px 15px;
 }
 .social i{
 font-size: 50px;
+color:firebrick ;
 }
 .social-i{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: #8282F8;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .social-i i{
     font-size: 40px;
+    color:firebrick ;
 }
-
 .form{
     background-color:#CAD8FF ;
 }
-
-
 .footer-content{
     background-color:  #0D2248;
     color: white;
     text-align: center;
     padding: 10px;
 }
+/* end */
 
 
 /* resume */
@@ -465,16 +454,39 @@ img {
 .technical-s{
     border-left: 1px solid black;
 }
-/* .service{
+.t-s{
+    padding: 5px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
-    text-align: justify;
-    box-sizing: border-box;
+    justify-content: center;
+    box-shadow: rgba(199, 45, 45, 0.35) 0px 5px 15px;
+    font-size: 25px;
+
+}
+.faltu-li{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+text-align: start;
+
+}
+.faltu-li span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+
+.services{
     padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-} */
+    margin: 40px 10px;
+}
 .service-in{
     height: 100%;
     width: 100%;

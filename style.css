@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-
+min-height: 100vh;
+display: flex;
+flex-direction: column;
 }
 
 .navbar-brand{
@@ -171,9 +173,8 @@ flex-direction: column;
 }
 .b-line{
 margin-left: 45%;
-
     width: 10%;
-    height: 6px;
+    height: 8px;
     background-color: blue;
 }
 
@@ -260,6 +261,9 @@ color:firebrick ;
 }
 .form{
     background-color:#CAD8FF ;
+}
+.footer{
+    margin-top: auto;
 }
 .footer-content{
     background-color:  #0D2248;
@@ -511,3 +515,23 @@ text-align: start;
   font-size: 40px;
   color:firebrick;
 }
+
+/* edit */
+.edit-form{
+    padding: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.edit{
+    padding: 20px;
+    margin: 20px;
+}
+
+.technical-add h3, .soft-add h3{
+    text-align: center;
+    padding: 10px;
+}
+.edit h2{
+    padding: 20px;
+}
+
+/* edit end */

@@ -34,7 +34,7 @@ body {
 
 /* navbar end */
 
-/* top section */
+/* home section */
 .top {
     margin-bottom: 50px;
 }
@@ -72,12 +72,11 @@ body {
     height: auto;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     box-shadow: 10px 8px 8px 10px rgba(76, 26, 192, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.19);
-    background-image: linear-gradient(0deg, rgba(178, 34, 34, 0.54) 19%, rgba(255, 255, 0, 0.45) 48%, rgba(0, 128, 0, 0.57) 73%);
     border-radius: 50% 50% 50% 50% / 30% 52% 48% 70%;
     /* background-color: firebrick; */
 }
 
-/* top section end */
+/* home section end */
 
 /* about section */
 .about {
